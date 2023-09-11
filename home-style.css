@@ -229,4 +229,10 @@ area {
   .d6 {
     width: 100% !important;
   }
+  .d1 div img {
+    width: 100% !important;
+  }
+  .blockeddd {
+    display: none !important;
+  }
 }

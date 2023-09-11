@@ -290,8 +290,6 @@ body {
     flex-direction: column;
   }
   .navbar ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
 }
