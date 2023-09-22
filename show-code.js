@@ -30,7 +30,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/living${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `RS${prilist[i]}`;
         }
     }
     else if (topic == 'kitchen') {
@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/kitchen${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `RS${prilist[i]}`;
         }
     }
     else if (topic == 'master-bedroom') {
@@ -55,7 +55,7 @@ window.addEventListener('load', () => {
             document.getElementById(`ima${i}`).src = `source/master-bedroom${i}.jpg`;
             // document.getElementById(`ima${i}`).src = './source/bathroom1.jpg';
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `Rs${prilist[i]}`;
         }
     }
     else if (topic == 'dining-room') {
@@ -67,7 +67,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/dining-room${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `RS${prilist[i]}`;
         }
     }
     else if (topic == 'kids-bedroom') {
@@ -79,7 +79,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/kids-bedroom${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `Rs${prilist[i]}`;
         }
     }
     else if (topic == 'bathroom') {
@@ -91,7 +91,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/bathroom${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `rs${prilist[i]}`;
         }
     }
     else if (topic == 'wardrobe') {
@@ -103,7 +103,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/wardrobe${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `RS${prilist[i]}`;
         }
     }
     else if (topic == 'pooja-room') {
@@ -115,7 +115,7 @@ window.addEventListener('load', () => {
         for (let i = 1; i < 11; i++) {
             document.getElementById(`ima${i}`).src = `source/pooja-room${i}.jpg`;
             document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `₹${prilist[i]}`;
+            document.getElementById(`pri${i}`).textContent = `Rs${prilist[i]}`;
         }
     }
 })
