@@ -277,11 +277,18 @@ body {
   .ftr-t ul {
     margin: 5% 0;
   }
+  .d1 {
+    flex-direction: column;
+  }
+  .d1 div {
+    width: 100% !important;
+    margin-bottom: 10%;
+  }
   .content h1 {
     font-size: 30px;
   }
   .content {
-    margin-top: 30%;
+    /* margin-top: 30%; */
   }
   .content p {
     width: 80%;
