@@ -106,16 +106,16 @@ window.addEventListener('load', () => {
             document.getElementById(`pri${i}`).textContent = `RS${prilist[i]}`;
         }
     }
-    else if (topic == 'pooja-room') {
-        document.getElementById('head-title').textContent = "POOJA ROOM INTERIOR";
-        document.getElementById('title').textContent = "Your pooja room is the place that fills your home with spirituality and purity. Whether you want to design it traditionally as per vastu or give it a modern touch, we're here to help you. Here are a few pooja room designs to inspire you.";
-        document.getElementById('bnr').style['background-image'] = "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('source/show-background-pooja-room.jpg')";
-        const namelist = ["", "Contemporary, Multi-Functional Pooja Space", "Unique Contemporary Pooja Room", "Premium Pooja Room with Natural Lighting", "Classic Open Pooja Area", "Contemporary Pooja Room", "Classic Golden Pooja Room", "Traditional Pooja Room", "Pooja Room With Gold Leaf Walls", "Pooja Room With Blue Wall", "Unique Wooden Pooja Room"];
-        const prilist = ["", "228,866", "254,723", "347,399", "194,164", "300,397", "311,533", "81,221", "121,244", "227,555", "181,631"];
-        for (let i = 1; i < 11; i++) {
-            document.getElementById(`ima${i}`).src = `source/pooja-room${i}.jpg`;
-            document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
-            document.getElementById(`pri${i}`).textContent = `Rs${prilist[i]}`;
-        }
-    }
+    // else if (topic == 'pooja-room') {
+    //     document.getElementById('head-title').textContent = "POOJA ROOM INTERIOR";
+    //     document.getElementById('title').textContent = "Your pooja room is the place that fills your home with spirituality and purity. Whether you want to design it traditionally as per vastu or give it a modern touch, we're here to help you. Here are a few pooja room designs to inspire you.";
+    //     document.getElementById('bnr').style['background-image'] = "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('source/show-background-pooja-room.jpg')";
+    //     const namelist = ["", "Contemporary, Multi-Functional Pooja Space", "Unique Contemporary Pooja Room", "Premium Pooja Room with Natural Lighting", "Classic Open Pooja Area", "Contemporary Pooja Room", "Classic Golden Pooja Room", "Traditional Pooja Room", "Pooja Room With Gold Leaf Walls", "Pooja Room With Blue Wall", "Unique Wooden Pooja Room"];
+    //     const prilist = ["", "228,866", "254,723", "347,399", "194,164", "300,397", "311,533", "81,221", "121,244", "227,555", "181,631"];
+    //     for (let i = 1; i < 11; i++) {
+    //         document.getElementById(`ima${i}`).src = `source/pooja-room${i}.jpg`;
+    //         document.getElementById(`hed${i}`).textContent = `${namelist[i]}`;
+    //         document.getElementById(`pri${i}`).textContent = `Rs${prilist[i]}`;
+    //     }
+    // }
 })
