@@ -271,6 +271,18 @@ body {
   display: none;
 }
 @media (max-width: 400px) {
+  .d2 div h2 {
+    font-size: 22px !important;
+  }
+  .d2 div p {
+    font-size: 20px !important;
+  }
+  .d2 div {
+    width: 100% !important;
+  }
+  .d2 {
+    flex-direction: column;
+  }
   .ftr-t {
     flex-direction: column;
   }
